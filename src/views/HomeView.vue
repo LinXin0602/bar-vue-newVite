@@ -248,7 +248,7 @@ getStation();
 
 //獲取地圖資料,apikey等,界接api
 const mapRef = ref(null);
-const apiKey = 'AIzaSyBPM5EIbPP8qu7O1sp1EpHVNMKZoisvZQ4';
+const apiKey = '';
 const loader = new Loader({
   apiKey,
   version: 'weekly',
