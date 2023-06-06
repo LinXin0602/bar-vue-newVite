@@ -248,7 +248,7 @@ getStation();
 
 //獲取地圖資料,apikey等,界接api
 const mapRef = ref(null);
-const apiKey = '';
+const apiKey = `${import.meta.env.VITE_API}`;
 const loader = new Loader({
   apiKey,
   version: 'weekly',
